@@ -12,6 +12,12 @@ ul {
     border: 1px solid black;
 }
 
+@media (prefers-color-scheme: dark) {
+    #div-app {
+        border: 1px solid white;
+    }
+}
+
 #p-notes {
     margin: 16px 0 0 0;
 }
