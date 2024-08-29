@@ -1,0 +1,17 @@
+#p-notes {
+    font-size: xx-large;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+#div-app {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#p-notes {
+    margin: 16px 0 0 0;
+}

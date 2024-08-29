@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fretbot</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+  <meta property="og:title" content="Fretbot" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="https://rayuelometro.vercel.app/" /> -->
+  <!-- <meta property="og:image" content="https://rayuelometro.vercel.app/img/rayuela.png" /> -->
+</head>
+<body>
+    <h1>Fretbot</h1>
+
+    <main>
+      <p>
+        This website generates music notes in random order. It is meant to help you learn the guitar fretboard
+        following the method from
+        <a href="https://www.youtube.com/watch?v=PJddQ6Q0UDo" target="_blank" rel="noreferrer noopener">this YouTube video</a>
+        by <em>MusicTheoryForGuitar</em>.
+      </p>
+  
+      <p>Before starting, make sure to watch the video to get all the required context.</p>
+  
+      <div id="div-app">
+        <form id="form">
+          <div>
+            <input type="radio" id="radio-ex1" name="ex-number" value="1" checked>
+              <label for="radio-ex1">Exercises 1 and 2</label>
+            </input>
+            <input type="radio" id="radio-ex3" name="ex-number" value="3">
+              <label for="radio-ex3">Exercise 3</label>
+            </input>
+            <input type="radio" id="radio-ex4" name="ex-number" value="4">
+              <label for="radio-ex4">Exercise 4</label>
+            </input>
+            <input type="radio" id="radio-ex5" name="ex-number" value="5">
+              <label for="radio-ex5">Exercise 5</label>
+            </input>
+          </div>
+    
+          <input type="submit" value="Generate notes" />
+        </form>
+    
+        <div>
+          <p id="p-message"></p>
+          <p id="p-notes"></p>
+        </div>
+      </div>
+  
+      <p>Once you have mastered all the exercises, repeat #2 to #5 gradually increasing the metronome speed. When you are able to do #5 at 80 BPM you are DONE!</p>
+    </main>
+
+    <footer>
+      <a href="#">GitHub</a> - Juan Pablo Valencia, 2024
+    </footer>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
